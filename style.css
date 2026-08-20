@@ -2,6 +2,7 @@
     box-sizing: border-box;
     padding: 0px;
     margin: 0px;
+    font-family: 'Poppins', sans-serif
  }
 
  body{
@@ -65,8 +66,15 @@
  #sub-heading{
     text-align: center;
     color: #8B8B8B;
-    margin-top: 4px;
     font-size: 17px;
  }
 
  /* Dynamic colors section */
+
+ .Dynamic-colors-btns{
+    height: 47px;
+    width: 30%;
+    margin-top: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.19);
+ }
