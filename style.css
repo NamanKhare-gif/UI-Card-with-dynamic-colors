@@ -69,6 +69,56 @@
     font-size: 17px;
  }
 
+ .follower-count{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    text-align: center;
+    margin-top: 27px;
+ }
+
+ .follower-count span{
+    font-weight: 700;
+    font-size: 27px;
+ }
+
+ .tert-text{
+    font-weight: 700;
+    color: #FD1857; 
+    font-size: 24px;
+ }
+
+ .Follower-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    margin-top: 22px;
+ }
+
+ .Primary-btn{
+    width: 128px;
+    height: 45px;
+    border-radius: 35px;
+    border: none;
+    background-color: #FD1857; 
+    font-weight: 600;
+    color: white;
+    font-size: 14px;
+ }
+
+ .Secondary-btn{
+    color: #FD1857; 
+    border: 2px solid #FD1857;
+    width: 128px;
+    height: 45px;
+    border-radius: 35px;
+    background: none;
+    font-weight: 600;
+    font-size: 14px;
+ }
+
  /* Dynamic colors section */
 
  .Dynamic-colors-btns{
