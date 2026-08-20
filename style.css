@@ -1,0 +1,72 @@
+ *{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+ }
+
+ body{
+    padding: 30px;
+ }
+
+ .Card{
+    height: 450px;
+    width: 30%;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.19);
+ }
+
+ /* Top Section */
+
+ .Top-section{
+    height: 25%;
+    background: #FD1857;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+ }
+
+ /* Bottom Section */
+
+ .Bottom-section{
+    height: 75%;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+ }
+
+ .img-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+
+ .profile-section{
+    padding: 5px;
+    background-color: white;
+    border-radius: 50%;
+    width: 50%;
+    align-items: center;
+    margin-top: -88px;
+ }
+
+ .profile-img{
+    background-color: rgb(231, 221, 221);
+    background-size: cover;
+    border-radius: 50%;
+    height: 136px;
+    width: 100%;
+ }
+
+ #main-heading{
+    color: #FD1857; 
+    text-align: center;
+    font-size: 23px;
+    margin-top: 8px;
+ }
+
+ #sub-heading{
+    text-align: center;
+    color: #8B8B8B;
+    margin-top: 4px;
+    font-size: 17px;
+ }
+
+ /* Dynamic colors section */
