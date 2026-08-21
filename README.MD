@@ -147,8 +147,9 @@ you can see the short-video of the project in -
 Preview
 ├── Main-theme.png
 └──Preview-video.mp4
+```
 
----
+----
 
 ## 📸 Themes
 
