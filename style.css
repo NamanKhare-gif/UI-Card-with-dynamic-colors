@@ -5,9 +5,15 @@
     font-family: 'Poppins', sans-serif
  }
 
- .pink{
-    color: #FD1857;
-    background-color: #FD1857;
+
+ :root{
+   --Primary-color : #FD1857;
+   --Secnondary-color : #3498DB;
+   --Tertiary-color : #9B59B6;
+   --Quaternary-color : #2ECC71;
+   --Quinary-color : #F1C40F;
+   --White-color : #ffffff;
+   --Secondary-text : #8B8B8B;
  }
 
  body{
@@ -25,7 +31,7 @@
 
  .Top-section{
     height: 25%;
-    background: #FD1857;
+    background: var(--Primary-color);
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
  }
@@ -46,7 +52,7 @@
 
  .profile-section{
     padding: 5px;
-    background-color: white;
+    background-color: var(--White-color);
     border-radius: 50%;
     width: 50%;
     align-items: center;
@@ -62,7 +68,7 @@
  }
 
  #main-heading{
-    color: #FD1857; 
+    color: var(--Primary-color); 
     text-align: center;
     font-size: 23px;
     margin-top: 8px;
@@ -70,7 +76,7 @@
 
  #sub-heading{
     text-align: center;
-    color: #8B8B8B;
+    color: var(--Secondary-text);
     font-size: 17px;
  }
 
@@ -90,7 +96,7 @@
 
  .tert-text{
     font-weight: 700;
-    color: #FD1857; 
+    color: var(--Primary-color); 
     font-size: 24px;
  }
 
@@ -107,15 +113,15 @@
     height: 45px;
     border-radius: 35px;
     border: none;
-    background-color: #FD1857; 
+    background-color: var(--Primary-color); 
     font-weight: 600;
-    color: white;
+    color: var(--White-color);
     font-size: 14px;
  }
 
  .Secondary-btn{
-    color: #FD1857; 
-    border: 2px solid #FD1857;
+    color: var(--Primary-color); 
+    border: 2px solid var(--Primary-color);
     width: 128px;
     height: 45px;
     border-radius: 35px;
@@ -145,26 +151,9 @@
  }
 
  .dynamic-btn{
-    background-color: #FD1857;
     border-radius: 50%;
     height: 20px;
     width: 20px;
     border: none;
     cursor: pointer;
- }
-
- #pink{
-    background-color: #FD1857;
- }
- #blue{
-    background-color: #3498DB;
- }
- #purple{
-    background-color: #9B59B6;
- }
- #green{
-    background-color: #2ECC71;
- }
- #yellow{
-    background-color: #F1C40F;
  }
